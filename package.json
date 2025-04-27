@@ -1,0 +1,23 @@
+{
+  "name": "srivaaribot",
+  "version": "1.0.0",
+  "description": "SriVenkateswara WhatsApp Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.16",
+    "apis": "^0.1.2",
+    "axios": "^1.8.4",
+    "google": "^2.1.0",
+    "google-auth-library": "^9.15.1",
+    "google-spreadsheet": "^4.1.4",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.48",
+    "node-cron": "^3.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "xlsx": "^0.18.5"
+  }
+}
